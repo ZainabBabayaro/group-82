@@ -6,10 +6,12 @@
 }
 body {
   font-size: 1rem;
-  background-color: hsl(225, 100%, 94%);
   font-family: "Red Hat Display", sans-serif;
+background: url("/images/pattern-background-desktop.svg") center top;
+background-repeat: no-repeat;
+background-size: cover;
 }
-url(C:\Users\USER\Desktop\order-summary-capstone-project\order-summary-component-main\images\pattern-background-desktop.svg)
+
 
 img {
   box-sizing: border-box;
@@ -18,9 +20,6 @@ img {
 }
 #main {
   border: 1px solid rgba(255, 255, 255, 0);
-   style="background: url('C:\Users\USER\Desktop\order-summary-capstone-project\order-summary-component-main\images\pattern-background-desktop.svg')">\
-
-   background-repeat: no-repeat;
   height: 100vh;
 }
 .card {
@@ -75,6 +74,7 @@ button {
   box-shadow: 0 8px 16px 0 rgba(137, 155, 255, 0.8);
 }
 button {border-radius: 12px;}
+
 .cancel {
   display: inline-block;
   text-decoration: none;
