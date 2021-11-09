@@ -1,0 +1,98 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+url(C:\Users\USER\Desktop\order-summary-capstone-project\order-summary-component-main\images\pattern-background-desktop.svg)
+
+img {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+#main {
+  border: 1px solid rgba(255, 255, 255, 0);
+   style="background: url('C:\Users\USER\Desktop\order-summary-capstone-project\order-summary-component-main\images\pattern-background-desktop.svg')">\
+
+   background-repeat: no-repeat;
+  height: 100vh;
+}
+.card {
+  margin: 0 auto;
+  margin-top: 2%;
+  background-color: rgb(255, 255, 255);
+  max-width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  min-height: 80%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 20px;
+  text-align: center;
+}
+.heading {
+  margin-bottom: 30px;
+}
+.text {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 5px;
+}
+.price {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 10px;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: hsl(225, 100%, 98%);
+  margin-bottom: 30px;
+}
+.music-icon {
+  width: 50px;
+}
+button {
+  border: none;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 20px;
+  color: white;
+  width: 90%;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 8px 16px 0 rgba(137, 155, 255, 0.8);
+}
+button {border-radius: 12px;}
+.cancel {
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+@media screen and (max-width: 375px) {
+  .card {
+    margin-top: 0;
+    max-width: 90%;
+    min-height: 100%;
+  }
+  .heading {
+    margin-bottom: 20px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  .price {
+    margin-bottom: 20px;
+  }
+}
